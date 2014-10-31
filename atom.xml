@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[blog.kyle.lu]]></title>
+  <link href="http://blog.kyle.lu//atom.xml" rel="self"/>
+  <link href="http://blog.kyle.lu//"/>
+  <updated>2014-10-31T14:30:21+08:00</updated>
+  <id>http://blog.kyle.lu//</id>
+  <author>
+    <name><![CDATA[Kyle Lu]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Hello, Octopress!]]></title>
+    <link href="http://blog.kyle.lu//blog/20141031/hello/"/>
+    <updated>2014-10-31T13:58:30+08:00</updated>
+    <id>http://blog.kyle.lu//blog/20141031/hello</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+</feed>
