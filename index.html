@@ -9,8 +9,8 @@
   <meta name="author" content="Kyle Lu">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="I&rsquo;m trying to compile fceux with Emscripten to see if it&rsquo;s able to run a nes emulator within a mobile browser.
+Which means without webGL &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -70,6 +70,45 @@
       
   <header>
     
+      <h1 class="entry-title"><a href="/blog/20141031/compiling-fceux-with-emscripten/">Compiling Fceux With Emscripten</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2014-10-31T15:29:13+08:00'><span class='date'><span class='date-month'>Oct</span> <span class='date-day'>31</span><span class='date-suffix'>st</span>, <span class='date-year'>2014</span></span> <span class='time'>3:29 pm</span></time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>I&rsquo;m trying to compile fceux with Emscripten to see if it&rsquo;s able to run a nes emulator within a mobile browser.
+Which means without webGL support.</p>
+
+<p>I tried <a href="https://github.com/libretro/RetroArch">RetroArch</a> with <a href="https://github.com/libretro/fceu-next">fceu-next</a>, but that means I had to deal with 2 code bases. I decided to try the original <a href="http://fceux.com/">fceux</a>.</p>
+
+<p>After a few days of trial and error, it finally builded successfully.
+It seems to run on destop browsers(Firefox, Chrome, Safari), but unfortuanlly the framerate is too low on mobile ones(Safari &amp; Chrome on iOS) and there&rsquo;s no sound.</p>
+
+<p>Repo: <a href="https://github.com/kyle-lu/fceux.js">fceux.js</a></p>
+
+<p>End of the story :(</p>
+</div>
+  
+  
+
+
+    </article>
+  
+  
+    <article>
+      
+  <header>
+    
       <h1 class="entry-title"><a href="/blog/20141031/hello/">Hello, Octopress!</a></h1>
     
     
@@ -107,10 +146,41 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/20141031/compiling-fceux-with-emscripten/">Compiling Fceux With Emscripten</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/20141031/hello/">Hello, Octopress!</a>
       </li>
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'kyle-lu',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 

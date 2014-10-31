@@ -117,6 +117,8 @@
     <p class="meta">
       
       
+        <a class="basic-alignment right" href="/blog/20141031/compiling-fceux-with-emscripten/" title="Next Post: Compiling fceux with Emscripten">Compiling fceux with Emscripten &raquo;</a>
+      
     </p>
   </footer>
 </article>
@@ -130,10 +132,41 @@
   <ul id="recent_posts">
     
       <li class="post">
+        <a href="/blog/20141031/compiling-fceux-with-emscripten/">Compiling Fceux With Emscripten</a>
+      </li>
+    
+      <li class="post">
         <a href="/blog/20141031/hello/">Hello, Octopress!</a>
       </li>
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating&#8230;</li>
+  </ul>
+  
+  <script type="text/javascript">
+    $(document).ready(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'kyle-lu',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 

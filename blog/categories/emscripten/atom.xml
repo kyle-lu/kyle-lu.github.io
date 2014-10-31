@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[blog.kyle.lu]]></title>
-  <link href="http://blog.kyle.lu//atom.xml" rel="self"/>
+  <title><![CDATA[Category: Emscripten | blog.kyle.lu]]></title>
+  <link href="http://blog.kyle.lu//blog/categories/emscripten/atom.xml" rel="self"/>
   <link href="http://blog.kyle.lu//"/>
   <updated>2014-10-31T16:26:55+08:00</updated>
   <id>http://blog.kyle.lu//</id>
@@ -29,15 +29,6 @@ It seems to run on destop browsers(Firefox, Chrome, Safari), but unfortuanlly th
 <p>Repo: <a href="https://github.com/kyle-lu/fceux.js">fceux.js</a></p>
 
 <p>End of the story :(</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Hello, Octopress!]]></title>
-    <link href="http://blog.kyle.lu//blog/20141031/hello/"/>
-    <updated>2014-10-31T13:58:30+08:00</updated>
-    <id>http://blog.kyle.lu//blog/20141031/hello</id>
-    <content type="html"><![CDATA[
 ]]></content>
   </entry>
   
