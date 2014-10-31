@@ -1,0 +1,7 @@
+---
+layout: post
+title: "Hello, Octopress!"
+date: 2014-10-31 13:58:30 +0800
+comments: false
+categories: 
+---
